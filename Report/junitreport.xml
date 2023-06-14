@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="14.343197">
+<testcase classname="To validate the login function of facebook" name="To validate with valid login username and password" time="4.344258">
+<system-out><![CDATA[Given To launch the chromebrowser...........................................passed
+When To launch the url of fb................................................passed
+And To pass valid username "ashvanth" in emnail field.......................passed
+And To pass valid password "0987678" in password field......................passed
+And To click the login button...............................................passed
+Then To close the browser...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login function of facebook" name="To validate with valid login username and password with multiple inputs" time="3.143917">
+<system-out><![CDATA[Given To launch the chromebrowser...........................................passed
+When To launch the url of fb................................................passed
+And To pass valid"ash@123.com" in emnail field..............................passed
+And To pass valid"234567" in password field.................................passed
+And To click the login button...............................................passed
+Then To close the browser...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login function of facebook" name="To validate with valid login username and password with multiple inputs 2" time="3.593152">
+<system-out><![CDATA[Given To launch the chromebrowser...........................................passed
+When To launch the url of fb................................................passed
+And To pass valid"ash@1232.com" in emnail field.............................passed
+And To pass valid"23t734567" in password field..............................passed
+And To click the login button...............................................passed
+Then To close the browser...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login function of facebook" name="To validate with valid login username and password with multiple inputs 3" time="3.26187">
+<system-out><![CDATA[Given To launch the chromebrowser...........................................passed
+When To launch the url of fb................................................passed
+And To pass valid"ash@1223.com" in emnail field.............................passed
+And To pass valid"234gngb567" in password field.............................passed
+And To click the login button...............................................passed
+Then To close the browser...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

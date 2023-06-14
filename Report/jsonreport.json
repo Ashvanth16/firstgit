@@ -1,0 +1,445 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2352042300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "To launch the chromebrowser",
+            "match": {
+              "location": "Samplecucumber.to_launch_the_chromebrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "To validate with valid login username and password",
+        "description": "",
+        "id": "to-validate-the-login-function-of-facebook;to-validate-with-valid-login-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1454608000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To launch the url of fb",
+            "match": {
+              "location": "Samplecucumber.to_launch_the_url_of_fb()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 194740900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To pass valid username \"ashvanth\" in emnail field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ashvanth\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Samplecucumber.to_pass_valid_username_in_emnail_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166973200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To pass valid password \"0987678\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0987678\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Samplecucumber.to_pass_valid_password_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172111800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To click the login button",
+            "match": {
+              "location": "Samplecucumber.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To close the browser",
+            "match": {
+              "location": "Samplecucumber.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1179580000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "To launch the chromebrowser",
+            "match": {
+              "location": "Samplecucumber.to_launch_the_chromebrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "To validate with valid login username and password with multiple inputs",
+        "description": "",
+        "id": "to-validate-the-login-function-of-facebook;to-validate-with-valid-login-username-and-password-with-multiple-inputs;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1454562900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To launch the url of fb",
+            "match": {
+              "location": "Samplecucumber.to_launch_the_url_of_fb()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 150728500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To pass valid\"ash@123.com\" in emnail field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ash@123.com\"",
+                  "offset": 13
+                }
+              ],
+              "location": "Samplecucumber.to_pass_valid_in_emnail_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164859900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To pass valid\"234567\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"234567\"",
+                  "offset": 13
+                }
+              ],
+              "location": "Samplecucumber.to_pass_valid_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193712700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To click the login button",
+            "match": {
+              "location": "Samplecucumber.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To close the browser",
+            "match": {
+              "location": "Samplecucumber.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1526609100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "To launch the chromebrowser",
+            "match": {
+              "location": "Samplecucumber.to_launch_the_chromebrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "To validate with valid login username and password with multiple inputs",
+        "description": "",
+        "id": "to-validate-the-login-function-of-facebook;to-validate-with-valid-login-username-and-password-with-multiple-inputs;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1615126500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To launch the url of fb",
+            "match": {
+              "location": "Samplecucumber.to_launch_the_url_of_fb()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113019800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To pass valid\"ash@1232.com\" in emnail field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ash@1232.com\"",
+                  "offset": 13
+                }
+              ],
+              "location": "Samplecucumber.to_pass_valid_in_emnail_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185460800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To pass valid\"23t734567\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"23t734567\"",
+                  "offset": 13
+                }
+              ],
+              "location": "Samplecucumber.to_pass_valid_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152614100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To click the login button",
+            "match": {
+              "location": "Samplecucumber.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To close the browser",
+            "match": {
+              "location": "Samplecucumber.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1493269500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "To launch the chromebrowser",
+            "match": {
+              "location": "Samplecucumber.to_launch_the_chromebrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "To validate with valid login username and password with multiple inputs",
+        "description": "",
+        "id": "to-validate-the-login-function-of-facebook;to-validate-with-valid-login-username-and-password-with-multiple-inputs;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1414762300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To launch the url of fb",
+            "match": {
+              "location": "Samplecucumber.to_launch_the_url_of_fb()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65767400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To pass valid\"ash@1223.com\" in emnail field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ash@1223.com\"",
+                  "offset": 13
+                }
+              ],
+              "location": "Samplecucumber.to_pass_valid_in_emnail_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172161500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To pass valid\"234gngb567\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"234gngb567\"",
+                  "offset": 13
+                }
+              ],
+              "location": "Samplecucumber.to_pass_valid_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115534200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To click the login button",
+            "match": {
+              "location": "Samplecucumber.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To close the browser",
+            "match": {
+              "location": "Samplecucumber.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login function of facebook",
+    "description": "",
+    "id": "to-validate-the-login-function-of-facebook",
+    "keyword": "Feature",
+    "uri": "C:/Users/My Pc/eclipse-workspace/cucumberpro/src/test/java/org/ash/cucumberpro/running.feature",
+    "tags": []
+  }
+]
